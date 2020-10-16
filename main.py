@@ -72,7 +72,7 @@ def coord():
 			city=""
 			flag=1
 			return render_template('result.html',passes=passes,len=len(passes),city=city,flag=flag)
-		        #the result is saved in the form of html file
+		        #the result is in the form of html file
 
 
 if __name__ == '__main__':
